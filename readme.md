@@ -1,0 +1,3 @@
+# The Coder's Guide to Job Security: Mastering the Art of Confusing Code!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The agenda for the upcoming <a href="https://twitter.com/hashtag/FOSS?src=hash&amp;ref_src=twsrc%5Etfw">#FOSS</a> Delhi Meetup has been released!<br><br>Timings: 4pm to 6pm ⏳<br>Venue: Zomato Corporate Office, Gurugram 🏢<br>Location: <a href="https://t.co/mYGiVv9KTC">https://t.co/mYGiVv9KTC</a> 🗺️ <a href="https://t.co/MWnEB8tgGC">pic.twitter.com/MWnEB8tgGC</a></p>&mdash; FOSS United Delhi (@FOSSUnitedDelhi) <a href="https://twitter.com/FOSSUnitedDelhi/status/1735347369158557952?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
