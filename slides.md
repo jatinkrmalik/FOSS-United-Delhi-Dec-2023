@@ -22,33 +22,76 @@
 
 ---
 
-Welcome to a journey through the mystical art of writing **unmaintainable** code. 
-
-**Guarantee** your job for life - because **no one else** will dare to touch your code!
-
 Let's get started?!
 
 ---
 
--> # Why you should write Unmaintainable Code? <-
+> Quidquid latine dictum sit, altum sonatur.
 
-- **Job Security:** The more confusing your code, the more indispensable you become. Ever heard of **Tribal Knowledge**?
-
-- **Challenge:** Test the limits of your ingenuity in obfuscation.
-  
-- **Fun:** Let's be honest, it's amusing to watch others struggle with your creative genius.
 ^
 
-Ready to dive into the **art of confusion**?
+- Whatever is said in Latin sounds **profound**.
+
+---
+
+In the interests of creating employment opportunities in the Backend, I am passing on these tips from the masters on how to write code that is so **difficult** to maintain, that the people who come after you will take **years** to make even the simplest changes.
+^
+
+Further, if you follow all these rules religiously, you will even guarantee yourself a **lifetime of employment**, since no one but you has a hope in hell of maintaining the code. 
+
+---
+
+Then again, if you followed all these rules religiously, **even you** wouldn't be able to maintain the code!
+^
+
+> You **don't** want to overdo this. Your code should not look hopelessly unmaintainable, just be that way. 
+^
+
+-> *Otherwise it stands the risk of being rewritten or refactored.* <-
+
+---
+
+-> # General Principles <-
+
+To foil the **KTLO** programmer, you have to understand how they think.
+
+- They have your giant program. 
+- They have no time to read it all, much less understand it. 
+^
+
+> They want to **rapidly find** the place to make his change, **make** it and **get out** and have **no unexpected side effects** from the change.
+
+---
+
+- Programmers are lulled into complacency by **conventions**. By every once in a while, by subtly **violating** convention, you force him to read *every line of your code with a magnifying glass*.
+^
+
+- You might get the idea that every language feature makes code **unmaintainable** -- not so, only if properly misused.
 
 ---
 
 -> `src/0_naming_conventions.py` <-
 
+- Much of the skill in writing unmaintainable code is the art of **naming variables and methods**. They **don't matter** at all to the compiler.
+
 - Keep them **guessing** what each variable and function does!
 ^
 
 - This is just a **simple factorial function**, but the naming conventions make it look like a complex space travel simulation.
+
+---
+
+-> Protip: **A.C.R.O.N.Y.M.S.** <-
+^
+- Use acronyms to keep the code terse. 
+^
+- Real programmers never define acronyms; they understand them genetically.
+
+---
+
+> Incorrect documentation is often worse than no documentation.
+  
+Since the computer **ignores** comments and documentation, you can **lie outrageously** and do everything in your power to befuddle the poor maintenance programmer.
 
 ---
 
@@ -65,6 +108,8 @@ Ready to dive into the **art of confusion**?
 -> `src/2_code_structure.py` <-
 
 - Nest conditions like **Russian dolls**
+  
+- Good coders can get up to **10 levels** of ( ) on a single line and **20 { }** in a single method
   
 - The **deeper**, the **better**.
 
@@ -87,6 +132,10 @@ Ready to dive into the **art of confusion**?
 - Use numbers like `42, 17, 23, 13, 3.14, 2.718` without any explanation.
 
 - Integrate these **magic numbers** into complex calculations. Why use constants when you can keep them **mystified**?
+
+---
+
+> Always look for the most obscure way to do common tasks!
 
 ---
 
@@ -114,10 +163,6 @@ Ready to dive into the **art of confusion**?
 
 - Why make it simple when we can use recursion for a **simple even-odd** check.
 
-
-- Why make it simple when we can use recursion for a **simple even-odd** check
-  
-- Why make it simple when we can use recursion for a **simple even-odd** check
 - **Bonus points** for embeding the logic within private helper functions to further complicate the understanding.
 
 ---
@@ -153,6 +198,18 @@ Ready to dive into the **art of confusion**?
 - Data types? Just a **suggestion**.
   
 - Mix and match for maximum **confusion**.
+
+---
+
+-> Protip: Lower Case **l** Looks a Lot Like the Digit **1** <-
+^
+
+- Use lower case l to indicate long constants. 
+^
+
+- e.g. `10l` is more likely to be mistaken for `101`. Ban any fonts that clearly disambiguate `uvw wW gq9 2z 5s il17|!j oO08 `'" ;,. m nn rn {[()]}`. 
+  
+- Be creative.
 
 ---
 
@@ -204,7 +261,15 @@ def cryptic_algo(a, b):
   
 - Use variable names from **different languages** for an **international flair**.
   
-- The more erratic, the better.
+- Maintenance coders, without your firm grasp of Spanish, will enjoy the **multicultural experience** of deciphering the meaning.
+
+---
+
+-> Protip: Try to pack as much as possible into a **single** line. <- 
+
+This saves the overhead of temporary variables, and makes source files **shorter** by eliminating new line characters and white space. 
+
+> Good programmers can often hit the **255 character** line length limit imposed by some IDEs.
 
 ---
 
@@ -222,6 +287,12 @@ def cryptic_algo(a, b):
 
 ---
 
+> If God didn't want us to use global variables, he wouldn't have invented them.
+
+Rather than disappoint God, use and set as many global variables as possible. Each function should use and set **at least two** of them, even if there's no reason to do this.
+
+---
+
 -> `src/17_abusing_global_variables.py` <-
 
 - Use and modify global variables recklessly. They should be in every method!
@@ -233,6 +304,28 @@ def cryptic_algo(a, b):
 
 - Implement **design patterns** where they **aren'**t needed.
 > The more complex, the better.
+
+---
+
+-> Protip: **Never** test your code!
+^
+
+> Leaving bugs in your programs gives the maintenance programmer who comes along later something interesting to do. 
+
+
+---
+
+And last but not the least! 
+
+My favourite... 
+
+---
+
+-> `src/19_toilet_tubing.py`
+
+- **Never** under any circumstances allow the code from more than one function or procedure to appear on the screen at once.
+
+- Comments at the top of procedures should use templates that are **at least 15 lines** long and make liberal use of blank lines.
 
 ---
 
