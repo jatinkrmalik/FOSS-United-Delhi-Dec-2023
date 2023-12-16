@@ -37,5 +37,5 @@ The repository contains the following:
 - **For Fun:** Enjoy the quirky and humorous take on coding practices.
 
 ## Special Thanks
-- Thanks to Roedy Green for the source material of this talk: "How To Write Unmaintainable Code - Ensure a job for life ;-)" by Roedy Green.
+- Thanks to Roedy Green for the source material of this talk: "How To Write Unmaintainable Code - Ensure a job for life ;-)" by Roedy Green [1997].
 - Thanks to all attendees of the FOSS United Delhi meet-up for their engagement and feedback.
