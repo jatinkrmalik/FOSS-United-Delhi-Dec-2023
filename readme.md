@@ -16,6 +16,30 @@ The repository contains the following:
 - **Slides:** A comprehensive slide deck for the talk, showcasing different rules and examples of unmaintainable code.
 - **Source Code:** Python examples for each of the rules discussed, demonstrating how to (not) write code.
 
+## Using the Slide Deck
+The slide deck for this talk is available in markdown format [here](0_SLIDE_DECK/SLIDES.md) and can be presented using the [mdp](https://github.com/visit1985/mdp) CLI tool in the terminal. 
+
+### Prerequisites
+- Ensure you have `mdp` installed on your system. If not, you can install it using package managers like `apt` or `brew`:
+```sh
+$ sudo apt-get install mdp # For Debian/Ubuntu
+
+$ brew install mdp # For macOS
+```
+
+### Running the Presentation
+1. Navigate to the root directory of this repository.
+2. Run the following command in your terminal:
+   ```sh
+   $ mdp 0_SLIDE_DECK/SLIDES.md
+   ```
+3. Navigate through the slides using arrow keys.
+
+### Adjusting Terminal Settings for Optimal Viewing
+- You may adjust the font size and colors of your terminal for a better viewing experience. 
+- This can usually be done in the terminal settings/preferences.
+
+
 ## Rules Covered
 1. Naming Conventions
 2. Documentation
