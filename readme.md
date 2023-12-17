@@ -31,7 +31,7 @@ $ brew install mdp # For macOS
 1. Navigate to the root directory of this repository.
 2. Run the following command in your terminal:
    ```sh
-   $ mdp 0_SLIDE_DECK/SLIDES.md
+   $ mdp SLIDES.mdp
    ```
 3. Navigate through the slides using arrow keys.
 
