@@ -17,7 +17,7 @@ The repository contains the following:
 - **Source Code:** Python examples for each of the rules discussed, demonstrating how to (not) write code.
 
 ## Using the Slide Deck
-The slide deck for this talk is available in markdown format [here](0_SLIDE_DECK/SLIDES.md) and can be presented using the [mdp](https://github.com/visit1985/mdp) CLI tool in the terminal. 
+The slide deck for this talk is available in markdown format [here](SLIDES.md) and can be presented using the [mdp](https://github.com/visit1985/mdp) CLI tool in the terminal. 
 
 ### Prerequisites
 - Ensure you have `mdp` installed on your system. If not, you can install it using package managers like `apt` or `brew`:
